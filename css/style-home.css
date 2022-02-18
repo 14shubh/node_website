@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container-fluid {
+    position: relative;
+}
+
+.bg-img {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(7, 7, 7, 0.637), rgba(15, 14, 14, 0.637)), url('../images/home-banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-brand {
+    font-size: 34px;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-item .nav-link {
+    font-size: 18px;
+    transition: ease 0.4s;
+    letter-spacing: 1px;
+}
+
+.nav-item .nav-link:hover {
+    color: rgb(101, 205, 247) !important;
+}
+
+.navbar a span {
+    color: rgb(101, 205, 247);
+}
+
+.hero {
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-title h1,
+p,
+a {
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.hero-title h1 {
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.hero-title h1 span {
+    color: rgb(101, 205, 247);
+}
+
+.hero-title p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 70px;
+    letter-spacing: 1px;
+}
+
+.hero-title a {
+    padding: 15px 30px;
+    font-size: 24px;
+    background-color: rgb(29, 29, 29);
+    border: 1px solid rgb(101, 205, 247);
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: ease 0.5s;
+}
+
+.hero-title a:hover {
+    background-color: transparent;
+}
+
+.content-section {
+    margin-bottom: 50px;
+}
+
+.card {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.342);
+    border-radius: 5px;
+}
+
+.card img {
+    border-radius: 5px 5px 0 0;
+}
+
+.footer {
+    margin-top: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 150px;
+    height: 13vh;
+    width: 100%;
+    box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.192);
+    letter-spacing: 1px;
+}
+
+.footer h3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.footer h3 span {
+    color: rgb(101, 205, 247);
+}
